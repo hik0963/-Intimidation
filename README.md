@@ -41,7 +41,7 @@ Open `intimadation.py` and find:
 API_KEY = "YOUR_API_KEY"
 
 
-git clone https://github.com/YOUR_USERNAME/intimadation.git
+git clone https://github.com/hik0963/intimadation.git
 cd intimadation
 
 pip install requests
