@@ -1,27 +1,49 @@
-# Intimadation 🔎
+# 🛡️ Intimadation
 
-**Intimadation** is a Python tool that uploads malware samples to VirusTotal, retrieves detailed analysis, and prints out a full technical summary — useful for defenders, analysts, or anyone curious about a suspicious file.
+**Intimadation** is a Python-based malware analysis tool that uploads a suspicious file to VirusTotal, retrieves deep insights, and presents the results in a readable, intimidation-ready format. Ideal for defenders, malware researchers, and enthusiasts who want to stay 20 steps ahead.
 
-Created after encountering an advanced attacker who reversed a sample in seconds — this tool aims to keep you *ahead* by giving you full intel instantly.
-
----
-
-## ✅ What It Does
-
-- Uploads a file to VirusTotal
-- Checks how many antivirus engines detect it
-- Shows detection names and suspicious behavior
-- Prints a threat summary for your own definitions — or to reply with
+Inspired by a personal encounter where an attacker reversed a nation-state-grade Trojan within seconds — this tool gives you an edge to strike back with knowledge.
 
 ---
 
-## 🚀 How to Use It (For Beginners)
+## 🔍 What It Does
 
-1. **Install Python**  
-   Go to [https://python.org](https://python.org) and download Python 3.8 or later.
+- Uploads any file to VirusTotal for analysis
+- Retrieves:
+  - SHA-256 hash
+  - Antivirus detection stats
+  - Detection names
+  - Behavioral traits (obfuscation, encryption, etc.)
+- Prints a summary that can be added to your personal threat definitions or used to respond to attackers
 
-2. **Install the Requests module**  
-   Open a terminal or command prompt and run:
+---
 
-   ```bash
-   pip install requests
+## 🧰 Requirements
+
+- Python 3.8+
+- A free [VirusTotal](https://www.virustotal.com/) API key
+- `requests` Python module
+
+
+---
+
+## 🔑 VirusTotal API Setup
+
+1. Create an account at [https://www.virustotal.com](https://www.virustotal.com)
+2. Go to your profile → API key
+3. Copy the key
+
+Open `intimadation.py` and find:
+
+```python
+API_KEY = "YOUR_API_KEY"
+
+## 🚀 How to Use
+Step 1 — Install Requirements
+
+pip install requests
+
+---
+
+ ## Then find this line Replace with your file path
+intimidate("sample_malware.exe")
