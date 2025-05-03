@@ -43,7 +43,11 @@ Step 1 — Install Requirements
 
 pip install requests
 
----
-
  ## Then find this line Replace with your file path
 intimidate("sample_malware.exe")
+
+---
+
+## Then run the script:
+
+# python3 Intimidation_Script.py
