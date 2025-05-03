@@ -50,6 +50,6 @@ pip install requests
 intimidate("sample_malware.exe")
 Replace with your file path
 
----
+
 
   ## ONLY 14 CHILL PEOPLES
