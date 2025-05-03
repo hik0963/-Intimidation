@@ -24,6 +24,8 @@ Inspired by a personal encounter where an attacker reversed a nation-state-grade
 - A free [VirusTotal](https://www.virustotal.com/) API key
 - `requests` Python module
 
+---
+
 
 ---
 
@@ -38,16 +40,15 @@ Open `intimadation.py` and find:
 ```python
 API_KEY = "YOUR_API_KEY"
 
-## 🚀 How to Use
-Step 1 — Install Requirements
+
+git clone https://github.com/YOUR_USERNAME/intimadation.git
+cd intimadation
 
 pip install requests
 
- ## Then find this line Replace with your file path
-intimidate("sample_malware.exe")
-
 ---
 
-## Then run the script:
+# Then find:
+intimidate("sample_malware.exe")
+Replace with your file path
 
-# python3 Intimidation_Script.py
